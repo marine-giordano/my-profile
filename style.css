@@ -1,0 +1,93 @@
+/*Colors and fonts */
+
+body {
+  background-color: #AD9D9D;
+  color: blue;	
+  font-family: Courier;
+  font-size: 17px;
+}
+
+h1 {
+  color: pink; 
+  font-family: Helvetica;
+  font-weight: 50;
+  letter-spacing: 5px;
+  font-size: 45px;
+}
+
+h2{
+  color: pink;
+  font-family: Courier;
+  font-size: 30px;
+}
+
+a {
+  color: pink;
+}
+
+#logo{
+	border-radius:50%;
+	box-shadow:5px 5px 5px blue;
+}
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+.card-white {
+background-color: antiquewhite;
+padding: 40px;
+box-shadow: 0px 20px 40px rgba (0,0,0,0.3);
+border-radius: 10px;
+margin: 20px -20px;
+text-align: center;
+}
+.btn-blue {
+  background-color: blue;
+  color: pink;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.btn-blue:hover {
+  background-color: pink;
+  color: blue;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+}
+.list-inline i:hover {
+  color: blue;
+}
+#introduction p {
+  margin-bottom: 40px;
+
+}
+
+
+
+
+
+
